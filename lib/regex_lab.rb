@@ -2,7 +2,7 @@ def starts_with_a_vowel?(word)
 vowel_output = []
 cons_output = []
 vowel_output << word.scan(/^[aeiouAEIOU]/)
-cons_output << word.scan(//)
+cons_output << word.scan(/^[bB-zZ^aeiouAEIOU]/)
   if vowel_output != []
   true
   elsif cons_output != []
