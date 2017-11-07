@@ -4,7 +4,7 @@ cons_output = []
 vowel_output << word.scan(/^[aeiouAEIOU]\W+/)
   if vowel_output != []
   true
-  elsif cons_output != []
+ elsif cons_output == []
   false
   end
 end
